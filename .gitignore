@@ -9,3 +9,9 @@ data/*.csv
 # Kaggle download artifacts
 titanic.zip
 titanic/
+
+# sklearn dataset cache (auto-redownloaded by fetch_california_housing)
+cal_housing_py3.pkz
+
+# Office lock files
+~$*

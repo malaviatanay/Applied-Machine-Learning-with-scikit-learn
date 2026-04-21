@@ -1,6 +1,6 @@
 # Executive Summary — CSCI 164 Final Project
 
-**Author:** Tanay Malavia
+**Authors:** Tanay Malavia, Darpan Attri, Andres Ramos, Harika Yendapalli
 **Course:** CSCI 164 — Artificial Intelligence, Spring 2026
 **Date:** April 2026
 
@@ -84,6 +84,15 @@ Figures: `figures/ca_pred_vs_actual.png`, `figures/ca_residuals.png`.
 k-NN was the best classifier on Titanic (F1 0.72, ROC-AUC 0.85), and MLP was the best regressor on California Housing (R² 0.80). Both results are competitive with published benchmarks on these datasets. Natural next steps would be (i) feature engineering on Titanic (title, family size, cabin letter), (ii) ensemble methods like Random Forest or Gradient Boosting, and (iii) explicit spatial features for California Housing.
 
 ## 8. References
+
+**Titanic dataset**
+- Kaggle. *Titanic — Machine Learning from Disaster*. https://www.kaggle.com/c/titanic
 - Sehgal, M. *Titanic Data Science Solutions*. Kaggle, https://www.kaggle.com/code/startupsci/titanic-data-science-solutions
-- Pace, R. K., & Barry, R. (1997). Sparse spatial autoregressions. *Statistics & Probability Letters*, 33(3), 291–297.
+
+**California Housing dataset**
+- Pace, R. K., & Barry, R. (1997). Sparse spatial autoregressions. *Statistics & Probability Letters*, 33(3), 291–297. — original paper introducing the dataset.
+- scikit-learn developers. *`sklearn.datasets.fetch_california_housing`* — API documentation. https://scikit-learn.org/stable/modules/generated/sklearn.datasets.fetch_california_housing.html
+- StatLib archive, Carnegie Mellon University. *California Housing data* — original hosting of the 1990 census-derived dataset. http://lib.stat.cmu.edu/datasets/
+
+**Tools**
 - Pedregosa et al. (2011). Scikit-learn: Machine Learning in Python. *JMLR* 12, 2825–2830.
