@@ -1,6 +1,6 @@
 # CSCI 164 — Final Project: Applied ML with scikit-learn
 
-**Author:** Tanay Malavia
+**Authors:** Tanay Malavia, Darpan Attri, Andres Ramos, Harika Yendapalli
 **Course:** CSCI 164 — Artificial Intelligence (Spring 2026)
 **Due:** April 26, 2026
 

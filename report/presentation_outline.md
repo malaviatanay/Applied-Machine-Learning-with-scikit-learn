@@ -10,7 +10,7 @@ Copy each slide's content into Google Slides / PowerPoint / Keynote. Numbers and
 **Applied Machine Learning with scikit-learn**
 Comparing classifiers and regressors across two datasets
 
-Tanay Malavia • CSCI 164 • Spring 2026
+Tanay Malavia, Darpan Attri, Andres Ramos, Harika Yendapalli • CSCI 164 • Spring 2026
 GitHub: `github.com/malaviatanay/Applied-Machine-Learning-with-scikit-learn`
 
 **Speaker notes:** Brief hello; this project is about building and comparing classical ML models on two datasets end-to-end.

@@ -113,7 +113,7 @@ def build():
         prs,
         title="Applied Machine Learning with scikit-learn",
         subtitle="Comparing classifiers and regressors across two datasets",
-        footer="Tanay Malavia  •  CSCI 164  •  Spring 2026  •  github.com/malaviatanay/Applied-Machine-Learning-with-scikit-learn",
+        footer="Tanay Malavia, Darpan Attri, Andres Ramos, Harika Yendapalli  •  CSCI 164  •  Spring 2026  •  github.com/malaviatanay/Applied-Machine-Learning-with-scikit-learn",
     )
 
     # Slide 2 — problem & goals
