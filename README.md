@@ -28,12 +28,30 @@ final-project/
 ```
 
 ## Reproducibility
+
+### 1. Set up the environment
 ```bash
-python -m venv .venv
+cd final-project
+python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
+```
+
+> If you rename or move the project folder, delete `.venv/` and recreate it — virtual environments store absolute paths.
+
+### 2. Get the data
+- **Titanic** — download `train.csv` from https://www.kaggle.com/c/titanic/data, rename it `titanic.csv`, and place it in `data/`.
+- **California Housing** — no action needed; `sklearn.datasets.fetch_california_housing` downloads it automatically on first run.
+
+### 3. Run the notebooks
+```bash
 jupyter lab
 ```
+Then open and run all cells, in order:
+1. `notebooks/01_titanic.ipynb`
+2. `notebooks/02_california_housing.ipynb`
+
+Figures are saved to `figures/`. Runtime is ~1–2 minutes per notebook.
 
 ## Workflow
 1. EDA + preprocessing
